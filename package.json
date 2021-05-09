@@ -1,0 +1,14 @@
+{
+  "name": "textlint-checker-for-the-swift-programming-language-jp",
+  "version": "1.0.0",
+  "description": "textlint checker for the swift programming language jp",
+  "main": "index.js",
+  "scripts": {
+    "check": "./node_modules/.bin/textlint --rulesdir ./rules/textlint-rule-the-swift-programming-language-jp check/*.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "textlint": "^11.9.1"
+  }
+}
